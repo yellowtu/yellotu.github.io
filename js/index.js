@@ -1,6 +1,5 @@
   $("p").hide();
   $("#quiz").show(2000);
-
   function add(){
     $("#answer").show(2000)
   }
