@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>journal
+  </title>
+  <script src="js/jquery-3.2.1.js"></script>
+  <link rel="stylesheet" href="css/journal.css">
+</head>
+<body>
+<div class="header">
+  <div class="logo"></div>
+
+  <div class="nav">
+    <ul>
+      <li><a href="index.html">首页</a></li>
+      <li><a href="about.html">关于我</a></li>
+      <li><a href="">吃货</a></li>
+      <li><a href="">学习</a></li>
+      <li><a href="Journal.html">日志</a></li>
+    </ul>
+  </div>
+</div>
+
+<div class="content">
+<div class="head_content">
+<div class="home"><a href="index.html">博客首页</a></div>
+<div class="title"><a href="#">日常点滴</a></div>
+<div class="zhexue"><p>寻寻觅觅，回回忆忆，点点滴滴</p></div>
+</div>
+<div class="rizhi">
+  <div class="arrow_box">
+  <div class="sy">
+  <p> 生命可以随心所欲，但不能随波逐流。 </p>
+  </div>
+  <span>2017.07.23</span>
+  </div>
+  <div class="arrow_box">
+  <div class="sy">
+  <p>万物莫不存在破绽。因为没有完美的东西，才会存在毁坏全体从一再造的愿望。</p>
+  </div>
+  <span>2017.07.23</span>
+  </div>
+  <div class="arrow_box">
+  <div class="sy">
+  <p>悲伤的秋千总有微风陪伴，孤寂的夜，总有繁星点点，蓦然回首，而你却不在我身边。 </p></div>
+  <span>2017.07.23</span></div>
+  <div class="arrow_box">
+  <div class="sy">
+  <p>就算一切徒劳无功，就算结果不过如此，我仍然选择我自己认为最好的决定 </p></div>
+  <span>2017.07.23</span>
+  </div>
+  <div class="arrow_box">
+  <div class="sy"><p>自己的归宿自己来决定</p></div>
+  <span>2017.07.23</span>
+  </div>
+  <div class="arrow_box">
+  <div class="sy"><p>补偿犯下的罪,无论注入多少心血多少心血...也许终其一生也得不到宽恕,一生也得不到回报.....</p></div>
+  <span>2017.07.23</span>
+  </div>
+  <div class="arrow_box">
+  <div class="sy">
+  <p>有的人，生命短暂，
+短暂到会折损在花开正艳的季节。
+如果你的生命一开始便被赋予这样或那样的命运。
+那么在你的眼里你的一生究竟是悲怨还是坦然。
+生命的话题太过严肃，
+而我们却不能闭口不谈。
+如果花开的那一瞬间就意味着下一秒的凋谢。
+那么 至少，
+你也拥有过那花开正艳的季节。
+这一生，这一次。
+为自己抬起头，
+至少要骄傲的盛开过。</p></div>
+  <span>2017.07.23</span>
+  </div>
+  <div class="arrow_box">
+  <div class="sy"><p>这世间有着各种各样的意志
+不借任何人之手
+不亲自做个了断就无法前行
+这种情况当然也存在 </p></div>
+  <span>2017.07.23</span>
+  </div>
+  <div class="arrow_box">
+  <div class="sy"><img src="images/zhanchihongzhitongjingdianyulu61210.jpg" alt="赤瞳">
+  <p> 如果你不能确定某些事的话，那就不要拿起武器。只有那些自己做好了觉悟的人，才能够将利刃握在手中。</p></div>
+  <span>2017.07.23</span></div>
+  <div class="arrow_box">
+  <div class="sy"><p>与其躲在初始街慢慢腐朽，还不如努力保持自我直至最后一刻</p></div>
+  <span>2017.07.23</span></div>
+</div>
+ </div>
+
+<div class="Jump">
+<div>
+  <div class="Page_number"><a href="Journal.html"><span><<</span></a></div>
+  <div class="Page_number"><a href="Journal.html"><span><</span></a></div>
+  <div class="Page_number"><a href="Journal.html"><span>1</span></a></div>
+  <div class="Page_number"><a href="Journal_2.html"><span>2</span></a></div>
+  <div class="Page_number"><a href="Journal_3.html"><span>3</span></a></div>
+  <div class="Page_number"><a href="Journal_3.html"><span>></span></a></div>
+  <div class="Page_number"><a href="Journal_3.html"><span>>></span></a></div>
+</div>
+</div>
+</div>
+<div class="clear"></div>
+<div class="footer">
+
+</div>
+
+<script  type="text/javascript">
+  $(".sy").hover(
+    function(){
+    $(this).css("background-color","#F5F5DC");},
+
+    function(){ $(this).css("background-color","#F0F8FF")
+    ;}
+
+
+  )
+  $(".Page_number").eq(3).css("background-color","#ccc");
+
+  $(".Page_number").hover(function(){
+    $(this).css("background-color","#ccc")},
+    function(){$(this).css("background-color","#fff")});
+
+  $(".Page_number").eq(3).mouseleave(function(){
+    $(this).css("background-color","#ccc");
+  });
+</script>
+</body>
+</html>
