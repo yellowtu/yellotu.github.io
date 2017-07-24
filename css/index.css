@@ -23,7 +23,7 @@
     }
     .head_portrait div{width: 250px; height: 40px; text-align: center; margin: auto; background: rgba(0, 0, 0, .5);   margin-top: 250px;
         font-size: 16px; color:#ccc; }
-    .right_mei{width: 35%; float: left;}
+    .right_mei{width: 35%; float: right;}
     .mei{width: 250px; height: 250px; margin-top: 30px; background: url(../images/38s58PICjTY_1024.jpg); background-size: 250px 250px ; float: left;}
     .nav{width: 620px; margin:20px auto; }
     .nawp{float: left; }
